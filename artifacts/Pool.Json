@@ -1,0 +1,176 @@
+[
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "amount",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_subeventId",
+				"type": "uint256"
+			}
+		],
+		"name": "CreateStake",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "name",
+				"type": "string"
+			},
+			{
+				"internalType": "bytes32",
+				"name": "description",
+				"type": "bytes32"
+			},
+			{
+				"internalType": "bool",
+				"name": "win",
+				"type": "bool"
+			},
+			{
+				"internalType": "bool",
+				"name": "Loose",
+				"type": "bool"
+			},
+			{
+				"internalType": "bool",
+				"name": "Draw",
+				"type": "bool"
+			},
+			{
+				"internalType": "bool",
+				"name": "_ended",
+				"type": "bool"
+			}
+		],
+		"name": "createSubEvents",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_id",
+				"type": "uint256"
+			}
+		],
+		"name": "endEvent",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "id",
+				"type": "uint256"
+			}
+		],
+		"name": "Unstake",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"name": "IdToAddress",
+		"outputs": [
+			{
+				"internalType": "address",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"name": "ListOfStakers",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "amount",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "subeventId",
+				"type": "uint256"
+			},
+			{
+				"internalType": "address",
+				"name": "staker",
+				"type": "address"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"name": "ListOfsubevent",
+		"outputs": [
+			{
+				"internalType": "string",
+				"name": "name",
+				"type": "string"
+			},
+			{
+				"internalType": "bytes32",
+				"name": "Description",
+				"type": "bytes32"
+			},
+			{
+				"internalType": "bool",
+				"name": "Win",
+				"type": "bool"
+			},
+			{
+				"internalType": "bool",
+				"name": "Loose",
+				"type": "bool"
+			},
+			{
+				"internalType": "bool",
+				"name": "Draw",
+				"type": "bool"
+			},
+			{
+				"internalType": "bool",
+				"name": "ended",
+				"type": "bool"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	}
+]
