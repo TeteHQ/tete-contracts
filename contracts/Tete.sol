@@ -5,8 +5,8 @@ import "@openzeppelin/contracts/utils/math/SafeMath.sol";
 import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
 
 /**
- * @title TetePool
- * @dev TetePool is a smart contract that allows users
+ * @title Tete
+ * @dev Tete is a smart contract that allows users
  *  to create betting pools and stake on them.
  *  The smart contract will allow users to stake
  *  on the pools and the smart contract will use the outcome by the pool creator.
